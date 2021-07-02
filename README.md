@@ -1,8 +1,10 @@
 # sound-cloud
 
 File exchange platforms like SoundCloud allow musicians to share their creations directly with their fans. For this purpose, they can upload music files accompanied by various meta-information (title, author, interpreter, genre, ...). Meta-information serves so that listeners are aware of shared files and can carry out searches. 
+
 Having found the desired files, they can then download them for later use.
 Bearing in mind that the files to be exchanged are of considerable size, usually with several MB, the implementation of these systems has to pay particular attention to the resources consumed with the storage, manipulation and transmission of these files. 
+
 In particular, it is important to limit the number of simultaneous operations that can be carried out in order not to overload the system and to maintain a relative fairness between the different users.
 
 In this project, it was purposed the development of a platform for sharing music files in the form of a client/server in Java using sockets and threads. 
